@@ -67,3 +67,15 @@ p {
   color: var(--color-muted);
   max-width: 760px;
 }
+
+.feature-stack {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: var(--space-md);
+}
+
+@media (max-width: 800px) {
+  .feature-stack {
+    grid-template-columns: 1fr;
+  }
+}

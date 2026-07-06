@@ -8,6 +8,8 @@ import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 
+import "./styles/globals.css";
+
 export default function App() {
   return (
     <MainLayout>
