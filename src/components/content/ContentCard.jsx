@@ -1,12 +1,24 @@
 import "./ContentCard.css";
+import Card from "../ui/Card";
+import articles from "../../data/articles";
 
 export default function ContentCard() {
+     const article = articles.find((item) => item.featured);
+
+    if (!article) return null;
+
     return (
-    <div className="card-container">
-        <img src="https://picsum.photos/seed/picsum/300/200" alt="Card Image" className="card-img"/>
-        <h2 className="card-title">Card Title</h2>
-        <p className="card-description"> This will be the card description where we will add some description of the content</p>
-        <a href="" className="card-btn">Read more</a>
-    </div>)
-    ;
-};
+    <section className="section">
+        <div className="container">
+            <p className="eyebrow">Content</p>
+
+            <Card
+                eyebrow={article.category}
+                title={article.title}
+                text={article.body}
+                href={`/writing/${article.slug}`}
+            />
+        </div>
+    </section>
+    );
+}

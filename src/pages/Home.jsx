@@ -7,11 +7,7 @@ import ContentCard from "../components/content/ContentCard"
 export default function Home() {
   return (
     <>
-    <section className="section">
-        <div className="container">
-            <ContentCard />
-        </div>
-    </section>
+      <ContentCard />
       <MissionCard />
       <FeaturedArticle />
       <FeatureStack />
