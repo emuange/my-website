@@ -1,4 +1,7 @@
-@import "./tokens.css";
+@import "./typography.css";
+@import "./layout.css";
+@import "./variables.css";
+@import "Utilities.css";
 
 * {
   box-sizing: border-box;

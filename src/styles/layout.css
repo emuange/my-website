@@ -1,0 +1,12 @@
+.container {
+  width: min(100% - 2rem, var(--max-width));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--space-lg);
+}
+
+.reading-width {
+  max-width: var(--reading-width);
+}
