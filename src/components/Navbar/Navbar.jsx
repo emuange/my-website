@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import { site } from "../../data/site";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -14,7 +15,7 @@ export default function Navbar() {
           <ul className="nav-links">
             {site.nav.map((item) => (
               <li key={item.label}>
-                <a href={item.href}>{item.label}</a>
+                <Link to={item.href}>{item.label}</Link>
               </li>
             ))}
           </ul>

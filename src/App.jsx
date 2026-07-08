@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
+import Writing from "./pages/Writing";
 
 import "./styles/globals.css";
 
@@ -9,6 +10,7 @@ export default function App() {
     <MainLayout>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/writing" element={<Writing />} />
       </Routes>
     </MainLayout>
   );

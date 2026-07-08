@@ -1,4 +1,4 @@
-import WritingHeader from "../components/writing/Writingheader";
+import WritingHeader from "../components/writing/WritingHeader";
 import TopicFilter from "../components/writing/TopicFilter";
 import ArticleFeed from "../components/writing/ArticleFeed";
 import StillCurious from "../components/home/StillCurious";
