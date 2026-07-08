@@ -1,0 +1,7 @@
+.writing-page .section {
+  padding-block: var(--space-md);
+}
+
+.writing-page .writing-header {
+  padding-top: var(--space-lg);
+}

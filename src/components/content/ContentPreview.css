@@ -7,10 +7,9 @@
 }
 
 .content-preview h3 {
-  font-size: clamp(2rem, 5vw, 4rem);
-  line-height: 0.95;
-  letter-spacing: -0.04em;
-  margin: 0 0 var(--space-sm);
+    font-size: clamp(2.25rem, 3vw, 3.25rem);
+    line-height: 1;
+    letter-spacing: -0.03em;
 }
 
 .content-preview p {
