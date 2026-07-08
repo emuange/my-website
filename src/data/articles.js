@@ -1,31 +1,37 @@
 const articles = [
   {
-    id: "berlin-after-rain",
+  id: 1,
 
-    title: "Berlin After Rain",
+  slug: "berlin-after-rain",
 
-    slug: "berlin-after-rain",
+  title: "Berlin After Rain",
 
-    description:
-      "Why rainy cities feel slower than sunny ones.",
+  description:
+    "An observation about how weather changes the way we experience cities.",
 
-    publishedDate: "2026-07-06",
+  category: "Essay",
 
-    category: "writing",
+  topics: ["Berlin", "Cities", "Weather"],
 
-    tags: ["Berlin", "Cities", "Observation"],
+  published: "2026-07-09",
 
-    coverImage: "",
+  featured: true,
 
-    featured: true,
+  coverImage: "/images/berlin-rain.jpg",
 
-    author: "Emmanuel Muange",
+  body: `
+Berlin changes after rain.
 
-    body: ""
-  },
+Not because the buildings change.
+
+Because people do.
+
+Umbrellas appear...
+`
+},
 
   {
-    id: "maps-tell-stories",
+    id: 2,
 
     title: "Can Maps Tell Stories?",
 

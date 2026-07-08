@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ContentPreview.css";
 
 export default function ContentPreview({ content }) {
@@ -10,7 +11,10 @@ export default function ContentPreview({ content }) {
 
       {content.description && <p>{content.description}</p>}
 
-      <a href={`/writing/${content.slug}`}>Read more →</a>
+      <Link
+          to={`/writing/${content.slug}`} > Read article →
+      </Link>
+
     </article>
   );
 }
