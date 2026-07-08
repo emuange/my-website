@@ -4,13 +4,13 @@
 
 .mission-grid {
   display: grid;
-  grid-template-columns: 1.5fr 0.8fr;
+  grid-template-columns: 2fr 0.8fr;
   gap: var(--space-lg);
   align-items: end;
 }
 
 .mission h1 {
-  max-width: 850px;
+  max-width: 1000px;
   margin-bottom: var(--space-md);
 }
 
