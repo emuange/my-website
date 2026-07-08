@@ -10,7 +10,7 @@ export default function ContentPreview({ content }) {
 
       {content.description && <p>{content.description}</p>}
 
-      <a href={content.href || "#"}>Read more →</a>
+      <a href={`/writing/${content.slug}`}>Read more →</a>
     </article>
   );
 }
