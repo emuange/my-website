@@ -1,6 +1,4 @@
-import "./Photography.css";
-
-export default function Photography() {
+export default function NotFound() {
   return (
     <section className="section">
       <div className="container">

@@ -1,6 +1,5 @@
-import "./Photography.css";
 
-export default function Photography() {
+export default function PhotoSeries() {
   return (
     <section className="section">
       <div className="container">
