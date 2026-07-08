@@ -1,16 +1,12 @@
 import MissionCard from "../components/home/MissionCard";
-import FeaturedArticle from "../components/home/FeaturedArticle";
-import FeatureStack from "../components/home/FeatureStack";
+import FeaturedContent from "../components/home/FeaturedContent";
 import StillCurious from "../components/home/StillCurious";
-import ContentCard from "../components/content/ContentPreview"
 
 export default function Home() {
   return (
     <>
-      <ContentCard />
       <MissionCard />
-      <FeaturedArticle />
-      <FeatureStack />
+      <FeaturedContent />
       <StillCurious />
     </>
   );

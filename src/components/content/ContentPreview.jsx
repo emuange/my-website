@@ -1,24 +1,16 @@
 import "./ContentPreview.css";
-import Card from "../ui/Card";
-import articles from "../../data/articles";
 
-export default function ContentCard() {
-     const article = articles.find((item) => item.featured);
+export default function ContentPreview({ content }) {
+  if (!content) return null;
 
-    if (!article) return null;
+  return (
+    <article className="content-preview">
+      <p className="eyebrow">{content.category}</p>
+      <h3>{content.title}</h3>
 
-    return (
-    <section className="section">
-        <div className="container">
-            <p className="eyebrow">Content</p>
+      {content.description && <p>{content.description}</p>}
 
-            <Card
-                eyebrow={article.category}
-                title={article.title}
-                text={article.body}
-                href={`/writing/${article.slug}`}
-            />
-        </div>
-    </section>
-    );
+      <a href={content.href || "#"}>Read more →</a>
+    </article>
+  );
 }

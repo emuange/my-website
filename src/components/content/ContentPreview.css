@@ -1,13 +1,29 @@
 .content-preview {
-  max-width: 420px;
+  max-width: 720px;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  overflow: hidden;
+  padding: var(--space-md);
 }
 
 .content-preview h3 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 5vw, 4rem);
   line-height: 0.95;
-  margin: 0;
+  letter-spacing: -0.04em;
+  margin: 0 0 var(--space-sm);
+}
+
+.content-preview p {
+  color: var(--color-muted);
+}
+
+.content-preview a {
+  display: inline-block;
+  margin-top: var(--space-sm);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.content-preview:hover {
+  border-color: var(--color-accent);
 }
