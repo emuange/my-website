@@ -1,4 +1,4 @@
-import "./ContentCard.css";
+import "./ContentPreview.css";
 import Card from "../ui/Card";
 import articles from "../../data/articles";
 
