@@ -1,0 +1,12 @@
+.writing-header {
+    padding-top: var(--space-x1);
+}
+
+.writing-header h1 {
+    margin-bottom: var(--space-x1);
+    max-width: 700px;
+}
+
+.writing-header .lede {
+    max-width: var(--readable-width);
+}

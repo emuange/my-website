@@ -1,0 +1,19 @@
+.topic-filter {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.topic-filter button {
+  border: 1px solid var(--color-border);
+  background: transparent;
+  border-radius: 999px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.topic-filter button:hover {
+  background: var(--color-surface);
+  border-color: var(--color-accent);
+}

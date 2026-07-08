@@ -22,7 +22,22 @@ const articles = [
     author: "Emmanuel Muange",
 
     body: ""
-  }
+  },
+
+  {
+    id: "maps-tell-stories",
+
+    title: "Can Maps Tell Stories?",
+
+    description:
+      "Exploring how maps can communicate more than directions.",
+
+    category: "Essay",
+
+    featured: false,
+
+    slug: "can-maps-tell-stories"
+}
 ];
 
 export default articles;
